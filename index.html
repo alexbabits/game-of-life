@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Game of Life</title>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css' />
+</head>
+<body>
+    <h1>Conway's Game of Life</h1>
+    <div id="button-container">
+        <button type="button" onclick="startGame()">Start</button>
+        <button type="button" onclick="stopGame()">Stop</button>
+        <span id="generation-counter">Generation: 0</span>
+        <span id="time">Time Between Generations: 0</span>
+    </div>
+    
+    <div id="content" align=center>
+        <canvas id="game"></canvas>
+        <script type='text/javascript' src='GameOfLife.js'></script>
+    </div>
+</body>
+</html>
